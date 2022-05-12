@@ -1,0 +1,48 @@
+.heading{
+    font-size: 29px;
+    width: 100%;
+    margin: 0px;
+    background-color: #416788;
+    color: #E0E0E2;
+}
+.heading:hover{
+    background-color: #416788;
+}
+.nota{
+    font-size: 18px;
+    color: red;
+    white-space: pre-line;
+}
+body{
+    background-size: cover;
+}
+.div_vel{
+    float: left;
+}
+.div_vel_img, .div_vol_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#velocidad, #volumen{
+    font-size: 23px;
+    margin: 15px;
+    background-color: #416788;
+    width: 200px;
+}
+.divvol{
+    float: right;
+}
+canvas{
+    margin-top: -250px;
+    border-radius: 20px;
+    border: 5px solid greenyellow;
+}
+#reproducir,#pausar,#detener{
+    font-size: 25px;
+    width: 250px;
+}
+#cancion{
+    color: #E0E0E2;
+    background-color: #416788;
+    font-size: 20px;
+}
